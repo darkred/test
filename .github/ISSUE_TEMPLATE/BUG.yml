@@ -29,7 +29,7 @@ body:
       label: Tested the script itself alone?
       description: "Make sure the bug is caused by the script: try disabling the other scripts (and extensions) first, and even better in a fresh browser profile."
       options:
-        - label: I tested the script disabling all others, and if needed in a fresh profile.
+        - label: "I tested the script disabling all others, and if needed in a fresh profile."
         required: true
   - type: textarea
     id: what-happened
