@@ -25,7 +25,7 @@ body:
     attributes:
       label: What happened?
       description: "Also tell us, what did you expect to happen? Provide STR (steps to reproduce). <br> When the script doesn't work, is it because it doesn't run at all in the page (check TM/VM's toolbar dropdown button), or because it has errors in Console?         If it's the former them its `@include` rule needs additions. If it's the latter, include the Console errors in the textarea below. "
-      placeholder: Tell us what you see!
+      placeholder: Describe the issue.
       value:        
     validations:
       required: true
@@ -34,7 +34,7 @@ body:
     attributes:
       label: Example URL
       description: Provide a full URL where the bug appears.
-      placeholder: example.com/content
+      placeholder: example.com/page1.htm
     validations:
       required: false
   - type: dropdown
