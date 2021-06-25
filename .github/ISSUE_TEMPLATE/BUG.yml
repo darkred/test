@@ -26,10 +26,10 @@ body:
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen? Provide STR (steps to reproduce).
-      placeholder: |
-      "Tell us what you see! When the script doesn't work, is it because it doesn't run at all in the page (check TM/VM's toolbar dropdown button), or because it has errors in Console?"  
-      "If it's the former them its `@include` rule needs additions. If it's the latter, include the Console errors in the textarea below."
-      value: "A bug happened!"
+      placeholder: Tell us what you see!
+      value: |
+       When the script doesn't work, is it because it doesn't run at all in the page (check TM/VM's toolbar dropdown button), or because it has errors in Console?  
+       If it's the former them its `@include` rule needs additions. If it's the latter, include the Console errors in the textarea below.
     validations:
       required: true
   - type: input
