@@ -1,6 +1,6 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
+title: "[script title]: "
 labels: [bug, triage]
 assignees:
   - octocat
@@ -13,9 +13,8 @@ body:
     id: terms
     attributes:
       label: Please confirm the following
-      description: I agree to follow the [Code of Conduct](https://example.com)
       options:
-        - label: "I agree to follow this project's Code of Conduct"
+        - label: "I included the script name I'm referring to, in the issue title" 
           required: true
         - label: I performed a cursory search of the [issue tracker](https://github.com/darkred/Userscripts/issues) to avoid opening a duplicate issue
           required: true
@@ -25,7 +24,7 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: "Also tell us, what did you expect to happen? Provide STR (steps to reproduce). When the script doesn't work, is it because it doesn't run at all in the page (check TM/VM's toolbar dropdown button), or because it has errors in Console?         If it's the former them its `@include` rule needs additions. If it's the latter, include the Console errors in the textarea below. "
+      description: "Also tell us, what did you expect to happen? Provide STR (steps to reproduce). <br> When the script doesn't work, is it because it doesn't run at all in the page (check TM/VM's toolbar dropdown button), or because it has errors in Console?         If it's the former them its `@include` rule needs additions. If it's the latter, include the Console errors in the textarea below. "
       placeholder: Tell us what you see!
       value:        
     validations:
