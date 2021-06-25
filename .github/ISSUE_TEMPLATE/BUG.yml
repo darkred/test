@@ -14,7 +14,7 @@ body:
     attributes:
       label: Please confirm the following
       options:
-        - label: "I included the script name I'm referring to, in the issue title" 
+        - label: "I included in the issue title the script name I'm referring to" 
           required: true
         - label: I performed a cursory search of the [issue tracker](https://github.com/darkred/Userscripts/issues) to avoid opening a duplicate issue
           required: true
